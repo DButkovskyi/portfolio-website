@@ -1,24 +1,24 @@
 <template>
-  <div class="home">
-    <HelloWorld msg="Hi I'm Dan"/>
+  <div class="contact">
+    <ContactForm/>
     <SocialList class="social"/>
+      
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "/src/components/HelloWorld.vue"
 import SocialList from "/src/components/SocialList.vue"
+import ContactForm from "/src/components/ContactForm.vue"
 export default {
-  name: 'HomeView',
+  name: 'ContactView',
   components: {
-    HelloWorld,
     SocialList,
-  },
+    ContactForm
+  }
 }
 </script>
 
 <style>
   
 </style>
-
